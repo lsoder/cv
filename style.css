@@ -7,6 +7,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
+    color: ivory;
 }
 
 aside {
@@ -35,6 +36,10 @@ section {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-image: url(./images/woman.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 h1 {
@@ -53,15 +58,19 @@ p {
 
 #home {
     background-color: #6c5c7c;
+    
 }
 
 #about {
     background-color: lightskyblue;
+    
 }
 
 #work {
     background-color: lightcoral;
+    
 }
 #contact {
     background-color: #6c5c7c;
+    
 }

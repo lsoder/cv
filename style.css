@@ -13,6 +13,7 @@ body {
     flex-direction: column;
     color: ivory;
     height: 100vh;
+    background-color: black;
     
 }
 
@@ -44,7 +45,7 @@ aside ul li a {
 section {
     width: 100%;
     min-height: 100vh;
-    background-color: lightgoldenrodyellow;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,11 +56,12 @@ section {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+
+    text-align: center;
 }
 
 h1 {
-    text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 h2 {
@@ -68,7 +70,6 @@ h2 {
 
 p {
     font-size: 1.5rem;
-    transition: ease-in;
 }
 
 #dotts {
@@ -79,6 +80,11 @@ p {
 #dotts:hover {
     fill: ivory;
     transition: .5s;
+}
+
+.div-about {
+    max-width: 50rem;
+    max-height: 100%;
 }
 
 
@@ -107,7 +113,6 @@ p {
     margin: 0;
     letter-spacing: .1rem;
 }
-
 
 #home {
     background-color: #6c5c7c;

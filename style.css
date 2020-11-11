@@ -37,6 +37,7 @@ aside ul {
 
 aside ul li a {
     text-decoration: none;
+    transition: .5s;
     
 }
 
@@ -67,18 +68,56 @@ h2 {
 
 p {
     font-size: 1.5rem;
+    transition: ease-in;
 }
+
+#dotts {
+    fill: black;
+    fill-opacity: .8;
+}
+
+#dotts:hover {
+    fill: ivory;
+    transition: .5s;
+}
+
+
+.div-round-all {
+    display: flex;  
+}
+
+.div-round {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.round {
+    width: 12rem;
+    padding: 1rem;
+    margin: 1 2rem 0 2rem;
+}
+
+.text-round {
+    font-size: .9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    letter-spacing: .1rem;
+}
+
 
 #home {
     background-color: #6c5c7c;
 }
 
 #about {
-    background-color: lightskyblue;
-    
+    background-color: lightskyblue; 
 }
 
-#work {
+#skills {
     background-color: lightcoral;
 }
 #contact {

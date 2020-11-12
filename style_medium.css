@@ -6,7 +6,7 @@
         display: none;
     }
 
-    .hamburger-menu {
+    #hamburger-menu {
         display: block;
         color: black;
         position: fixed;

@@ -43,7 +43,7 @@ aside ul li a {
     transition: .5s;
 }
 
-.hamburger-menu {
+#hamburger-menu {
     display: none;
 }
 

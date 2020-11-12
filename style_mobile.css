@@ -4,6 +4,8 @@
     
     .hamburger-menu {
         color: ivory;
+        top: 0;
+        padding-right: .5rem;
     }
 
     p {

@@ -74,7 +74,7 @@ h2 {
 
 p {
     font-size: 1.5rem;
-    margin: 4rem;
+    margin: 2rem;
 }
 
 #dotts {
@@ -88,7 +88,7 @@ p {
 }
 
 .div-about {
-    max-width: 50rem;
+    max-width: 80%;
     max-height: 100%;
 }
 

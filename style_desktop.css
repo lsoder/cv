@@ -59,8 +59,6 @@ section {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-
-    text-align: center;
 }
 
 h1 {
@@ -70,11 +68,16 @@ h1 {
 h2 {
     font-size: 3rem;
     margin: 3rem;
+    text-align: center;
 }
 
 p {
     font-size: 1.5rem;
     margin: 2rem;
+}
+
+.about-text2 {
+    display: block;
 }
 
 #dotts {
@@ -125,6 +128,7 @@ i {
 
 #home {
     background-color: #6c5c7c;
+    text-align: center;
 }
 
 #about {
@@ -136,4 +140,5 @@ i {
 }
 #contact {
     background-color: #6c5c7c;
+    text-align: center;
 }

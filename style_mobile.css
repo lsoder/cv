@@ -11,4 +11,14 @@ SMALL DEVISES
     .div-round {
         display: none;
     }
+
+    p {
+        font-size: 2rem;
+        margin: 0;
+
+    }
+
+    .about-text2 {
+        display: none;
+    }
 }

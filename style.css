@@ -42,6 +42,10 @@ aside ul li a {
     
 }
 
+.hamburger-menu {
+    display: none;
+}
+
 section {
     width: 100%;
     min-height: 100vh;
@@ -112,6 +116,10 @@ p {
     padding: 0;
     margin: 0;
     letter-spacing: .1rem;
+}
+
+i {
+    font-size: 2rem;
 }
 
 #home {

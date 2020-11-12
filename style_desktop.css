@@ -1,3 +1,5 @@
+/* STYLE ON DESKTOP */
+
 *, ::before, ::after {
     box-sizing: border-box;
 }
@@ -135,6 +137,19 @@ p {
 i {
     font-size: 2rem;
     padding: .2rem
+}
+
+i:hover {
+    color: hotpink;
+}
+
+a {
+    text-decoration: none;
+    color: ivory;
+}
+
+a:hover {
+    color: hotpink;
 }
 
 #home {

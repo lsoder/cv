@@ -4,8 +4,8 @@ SMALL DEVISES
 
 @media (max-width: 400px) {
     
-    body {
-        background-color: red;
+    .hamburger-menu {
+        color: ivory;
     }
 
     .div-round {
@@ -21,16 +21,25 @@ SMALL DEVISES
         display: none;
     }
 
+    .skills-text-mobile {
+        display: flex;
+    }
+
     i {
         font-size: 2.5rem;
         padding-top: 2.5rem
     }
 
-    .hamburger-menu {
-        color: ivory;
-    }
-
     h2 {
         margin-bottom: 1rem;
+    }
+
+    h3 {
+        display: none;
+    }
+
+    h4 {
+        text-align: center;
+        font-size: 3rem;
     }
 }

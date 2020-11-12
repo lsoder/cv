@@ -17,6 +17,23 @@ SHOW HAMBURGER MENU
         position: fixed;
     }
 
+    .div-round {
+        display: none;
+    }
+
+    .skills-text-mobile {
+        display: flex;
+    }
+    h3 {
+        display: none;
+    }
+
+    h4 {
+        text-align: center;
+        font-size: 2.8rem;
+        margin: 2rem;
+    }
+
     p {
         font-size: 1.5rem;
         margin: 2rem;

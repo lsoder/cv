@@ -8,10 +8,6 @@ SMALL DEVISES
         color: ivory;
     }
 
-    .div-round {
-        display: none;
-    }
-
     p {
         font-size: 2rem;
         margin: 0;
@@ -21,25 +17,14 @@ SMALL DEVISES
         display: none;
     }
 
-    .skills-text-mobile {
-        display: flex;
-    }
-
     i {
         font-size: 2.5rem;
         padding-top: 2.5rem
     }
 
     h2 {
-        margin-bottom: 1rem;
+        /*margin-bottom: 1rem;*/
+        margin: 2rem;
     }
 
-    h3 {
-        display: none;
-    }
-
-    h4 {
-        text-align: center;
-        font-size: 3rem;
-    }
 }

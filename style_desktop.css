@@ -102,7 +102,7 @@ p {
     transition: .5s;
 }
 
-.div-about {
+#div-about {
     max-width: 80%;
     max-height: 100%;
 }
@@ -140,7 +140,7 @@ i {
 }
 
 i:hover {
-    color: hotpink;
+    color: #D90368;
 }
 
 a {
@@ -149,7 +149,7 @@ a {
 }
 
 a:hover {
-    color: hotpink;
+    color: #D90368;
 }
 
 #home {

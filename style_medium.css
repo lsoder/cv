@@ -16,7 +16,7 @@
         padding: 0 1rem;
         transition: height 400ms;
         margin: 0;
-        background-color: ivory;
+        background-color: pink;
     }
 
     #hamburger-menu {
@@ -24,14 +24,14 @@
         color: black;
         position: fixed;
         right: 0;
-        top: .2rem; 
+        top: 0; 
         padding-right: 1rem;
         cursor: pointer;
     }
 
     .mobile-menu {
         display: flex;
-        height: 3rem;
+        height: 0;
         align-items: center;
     }
 
@@ -63,7 +63,7 @@
     h4 {
         text-align: center;
         font-size: 2.8rem;
-        margin: 2rem;
+        line-height: 4rem;
     }
 
     p {

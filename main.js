@@ -1,4 +1,6 @@
-
+/**
+ * Menu drops down/is hidden when hamburger icon is clicked.
+ */
 const header = document.querySelector('header');
 const menuOut = document.getElementById('hamburger-menu');
 
@@ -10,9 +12,18 @@ menuOut.onclick = function() {
     }
 }
 
-function mouseDown(color) {
-    color.style.backgroundColor = "#D90368";
+/**
+ * Change color on About me container.
+ */
+
+function mouseDown() {
+    let color = document.getElementById('div-about');
+    color.classList.toggle("test-color");  
 }
+
+/**
+ * Change H1 heading onclick to different messages.
+ */
 
 function h1Change() {
     let h1 = document.getElementById('h1');

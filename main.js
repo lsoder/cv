@@ -1,3 +1,30 @@
+window.addEventListener('load', main);
+
+function main() {
+    let h1 = document.getElementById('h1');
+    h1.addEventListener('click', h1Change);
+}
+
+/**
+ * Change H1 heading onclick to different text messages.
+ */
+
+function h1Change() {
+    let h1 = document.getElementById('h1');
+    
+    if (h1.innerHTML === "Hello world.") {
+        h1.innerHTML = "Designers."; 
+    } else if (h1.innerHTML === "Designers.") {
+        h1.innerHTML = "Developers.";
+    } else if (h1.innerHTML === "Developers.") {
+        h1.innerHTML = "Gamers.";
+    } else if (h1.innerHTML === "Gamers.") {
+        h1.innerHTML = "Hello Everyone!";
+    } else if (h1.innerHTML === "Hello Everyone!") {
+        h1.innerHTML = "Hello world.";
+    }
+}
+
 /**
  * Menu drops down/is hidden when hamburger icon is clicked.
  */
@@ -19,27 +46,6 @@ menuOut.onclick = function() {
 function mouseDown() {
     let color = document.getElementById('div-about');
     color.classList.toggle("test-color");  
-}
-
-/**
- * Change H1 heading onclick to different messages.
- */
-
-function h1Change() {
-    let h1 = document.getElementById('h1');
-    
-    if (h1.innerHTML = "Hello world.") {
-        h1.innerHTML = "Designers."; 
-    } else if (h1.innerHTML = "Designers.") {
-        h1.innerHTML = "Developers.";
-    } else if (h1.innerHTML = "Developers.") {
-        h1.innerHTML = "Gamers.";
-    } else if 
-        (h1.innerHTML = "Gamers.") {
-        h1.innerHTML = "Hello Everyone!";
-    } else if (h1.innerHTML = "Hello Everyone!") {
-        h1.innerHTML = "Hello world.";
-    }
 }
 
 /**

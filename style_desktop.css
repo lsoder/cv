@@ -76,6 +76,7 @@ section {
 
 h1 {
     font-size: 4.5rem;
+    cursor: pointer;
 }
 
 h2 {
@@ -116,12 +117,12 @@ p {
 #div-about {
     max-width: 80%;
     max-height: 100%;
+    cursor: pointer;
 }
 
-.test-color {
+.color-bg {
     background-color: #D90368;
 }
-
 
 .div-round-all {
     display: flex;
@@ -171,7 +172,7 @@ a:hover {
 }
 
 #about {
-    background-color: lightskyblue; 
+    background-color: #47A8BD; 
 }
 
 #skills {
@@ -180,4 +181,18 @@ a:hover {
 #contact {
     background-color: #6c5c7c;
     text-align: center;
+}
+
+/* REUSABLE CLASSES */
+
+.flex {
+    display: flex;
+}
+
+.vertical {
+    flex-direction: column;
+}
+
+.padding-top {
+    padding-top: 2rem;
 }

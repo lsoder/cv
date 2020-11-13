@@ -1,12 +1,16 @@
 window.addEventListener('load', main);
 
+/**
+ * Makes H1 clickable.
+ */
+
 function main() {
     let h1 = document.getElementById('h1');
     h1.addEventListener('click', h1Change);
 }
 
 /**
- * Change H1 heading onclick to different text messages.
+ * Change H1 heading on click to different text messages.
  */
 
 function h1Change() {
@@ -45,7 +49,7 @@ menuOut.onclick = function() {
 
 function mouseDown() {
     let color = document.getElementById('div-about');
-    color.classList.toggle("test-color");  
+    color.classList.toggle("color-bg");  
 }
 
 /**

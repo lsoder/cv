@@ -44,7 +44,7 @@ menuOut.onclick = function() {
 }
 
 /**
- * Change color on About me container.
+ * Changes background color on About me container.
  */
 
 function mouseDown() {

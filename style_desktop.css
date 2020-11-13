@@ -1,6 +1,6 @@
 /* STYLE ON DESKTOP */
 
-*, ::before, ::after {
+* {
     box-sizing: border-box;
 }
 
@@ -43,7 +43,18 @@ aside ul li a {
     transition: .5s;
 }
 
+header {
+    display: none;
+}
 #hamburger-menu {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.mobile-menu-links {
     display: none;
 }
 

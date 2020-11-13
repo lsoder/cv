@@ -5,14 +5,48 @@
     aside {
         display: none;
     }
+    header {
+        display: flex;
+        width: 100%;
+        position: fixed;
+        height: 0;
+        justify-content: center;
+        overflow-y: hidden;
+        top: 0;
+        padding: 0 1rem;
+        transition: height 400ms;
+        margin: 0;
+        background-color: ivory;
+    }
 
     #hamburger-menu {
-        display: block;
+        display: flex;
         color: black;
         position: fixed;
         right: 0;
-        top: 1rem; 
+        top: .2rem; 
         padding-right: 1rem;
+        cursor: pointer;
+    }
+
+    .mobile-menu {
+        display: flex;
+        height: 3rem;
+        align-items: center;
+    }
+
+    .mobile-menu-links {
+        display: flex;
+        flex-direction: column;
+        font-size: 2rem;
+        align-items: center;
+        line-height: .2rem;
+        padding-top: 1rem;
+        right: 0;
+        width: 100%;
+        margin: 0;
+        color: black;
+        
     }
 
     .div-round {

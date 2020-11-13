@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV page</title>
+
+    <script defer src="./main.js"></script>
+    <link rel="stylesheet" href="./style_desktop.css">
+    <link rel="stylesheet" href="./style_medium.css">
+    <link rel="stylesheet" href="./style_mobile.css">
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
       <link
@@ -11,12 +18,7 @@
       integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
       crossorigin="anonymous"
     />
-    <script src="./main.js"></script>
-    <link rel="stylesheet" href="./style_desktop.css">
-    <link rel="stylesheet" href="./style_medium.css">
-    <link rel="stylesheet" href="./style_mobile.css">
-      <title>CV page</title>
-    
+
 </head>
 <body>
     <!----- ASIDE MENU ONLY ON DESKTOP VIEW ----->
@@ -37,11 +39,18 @@
             </ul>
         </aside>
 
-    <!----- HAMBURGER MENU SHOW ONLY ON TABLET AND MOBILE ----->    
-    <div id="hamburger-menu">
-        <i class="fas fa-bars"></i>
-    </div>
-
+    <!----- HAMBURGER MENU SHOW ONLY ON SMALL SCREENS ----->    
+    <header>
+        <div class="mobile-menu">
+            <i id="hamburger-menu" class="fas fa-bars"></i>
+        </div>
+        <div class="mobile-menu-links">
+            <h5>Home sweet home</h5>
+            <h5>About me</h5>
+            <h5>Skills on hills</h5>
+            <h5>Contact me</h5>
+        </div>
+    </header>
     <!----- SECTION "HOME" ----->
     <section id="home">
         <div>

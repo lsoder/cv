@@ -30,7 +30,7 @@ function h1Change() {
 }
 
 /**
- * Menu drops down/is hidden when hamburger icon is clicked.
+ * Menu drops down when hamburger icon is clicked and hidden when clicked again.
  */
 const header = document.querySelector('header');
 const menuOut = document.getElementById('hamburger-menu');
@@ -44,34 +44,36 @@ menuOut.onclick = function() {
 }
 
 /**
- * Changes background color on About me container.
- */
+ * Changes background color on "About me" container.
+*/
+let color1 = document.getElementById('div-about');
 
-function mouseDown() {
-    let color = document.getElementById('div-about');
-    color.classList.toggle("color-bg");  
+color1.onclick = function() {
+    color1.classList.toggle("color-bg");
 }
 
 /**
  * Hides background on hamburger menu when link is clicked.
  */
-
 let home1 = document.getElementById('home1');
+    
 home1.onclick = function() {
     header.style.height = null;
 }
 
 let about1 = document.getElementById('about1');
+    
 about1.onclick = function() {
     header.style.height = null;
 }
 
 let skills1 = document.getElementById('skills1');
+    
 skills1.onclick = function() {
     header.style.height = null;
 }
 
 let contact1 = document.getElementById('contact1');
-contact1.onclick = function() {
+    contact1.onclick = function() {
     header.style.height = null;
 }

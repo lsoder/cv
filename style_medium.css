@@ -26,6 +26,7 @@
         top: 0; 
         padding-right: 1rem;
         cursor: pointer;
+        z-index: 1000;
     }
 
     .mobile-menu {

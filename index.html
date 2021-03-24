@@ -1,121 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV page</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV | Linda Söder</title>
 
     <script defer src="./main.js"></script>
-    <link rel="stylesheet" href="./style_desktop.css">
-    <link rel="stylesheet" href="./style_medium.css">
-    <link rel="stylesheet" href="./style_mobile.css">
+    <link rel="shortcut icon" type="image/png" href="./images/icon.png"/>
+    <link rel="stylesheet" href="./style_desktop.css" />
+    <link rel="stylesheet" href="./style_medium.css" />
+    <link rel="stylesheet" href="./style_tablet.css" />
+    <link rel="stylesheet" href="./style_mobile.css" />
+    <link rel="stylesheet" href="./style_xs_mobile.css" />
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-      <link
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
       integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
       crossorigin="anonymous"
     />
-
-</head>
-<body>
-<!----- ASIDE MENU IS SHOWN ONLY ON DESKTOP VIEW ----->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!----- ASIDE MENU IS SHOWN ONLY ON DESKTOP VIEW ----->
     <aside>
-        <ul>
-            <li><a href="#home"><svg width="9" height="9" viewBox="0 0 9 9" xmlns="http://www.w3.org/2000/svg">
-                <circle id="dotts" cx="4.5" cy="4.5" r="4.5" fill="#E4E4E4"/>
-                </svg></a>
-            </li>
-            <li><a href="#about"><svg width="9" height="9" viewBox="0 0 9 9" xmlns="http://www.w3.org/2000/svg">
-                <circle id="dotts" cx="4.5" cy="4.5" r="4.5" fill="#E4E4E4"/>
-                </svg></a>
-            </li>
-            <li><a href="#skills"><svg width="9" height="9" viewBox="0 0 9 9" xmlns="http://www.w3.org/2000/svg">
-                <circle id="dotts" cx="4.5" cy="4.5" r="4.5" fill="#E4E4E4"/>
-                </svg></a>
-            </li>
-            <li><a href="#contact"><svg width="9" height="9" viewBox="0 0 9 9" xmlns="http://www.w3.org/2000/svg">
-                <circle id="dotts" cx="4.5" cy="4.5" r="4.5" fill="#E4E4E4"/>
-                </svg></a>
-            </li>
-        </ul>
+      <ul>
+        <li>
+          <a href="#home"
+            ><svg
+              width="12"
+              height="12"
+              viewBox="0 0 9 9"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                id="dotts"
+                cx="4.5"
+                cy="4.5"
+                r="4.5"
+                fill="#E4E4E4"
+              /></svg></a>
+        </li>
+        <li>
+          <a href="#about"
+            ><svg
+              width="12"
+              height="12"
+              viewBox="0 0 9 9"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                id="dotts"
+                cx="4.5"
+                cy="4.5"
+                r="4.5"
+                fill="#E4E4E4"
+              /></svg></a>
+        </li>
+        <li>
+          <a href="#project"
+            ><svg
+              width="12"
+              height="12"
+              viewBox="0 0 9 9"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                id="dotts"
+                cx="4.5"
+                cy="4.5"
+                r="4.5"
+                fill="#E4E4E4"
+              /></svg></a>
+        </li>
+        <li>
+          <a href="#tools"
+            ><svg
+              width="12"
+              height="12"
+              viewBox="0 0 9 9"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                id="dotts"
+                cx="4.5"
+                cy="4.5"
+                r="4.5"
+                fill="#E4E4E4"/></svg></a>
+        </li>
+        <li>
+          <a href="#contact"
+            ><svg
+              width="12"
+              height="12"
+              viewBox="0 0 9 9"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                id="dotts"
+                cx="4.5"
+                cy="4.5"
+                r="4.5"
+                fill="#E4E4E4"/></svg></a>
+        </li>
+      </ul>
     </aside>
 
-    <!----- HAMBURGER MENU IS SHOWN ONLY ON SMALL SCREENS ----->    
+    <!----- HAMBURGER MENU IS SHOWN ONLY ON SMALL SCREENS ----->
     <header>
-        <div class="mobile-menu">
-            <i id="hamburger-menu" class="fas fa-bars"></i>
-        </div>
-        <div class="mobile-menu-links">
-            <h5 id="home1"><a href="#home">Home</a></h5>
-            <h5 id="about1"><a href="#about">About me</a></h5>
-            <h5 id="skills1"><a href="#skills">Skills</a></h5>
-            <h5 id="contact1"><a href="#contact">Contact me</a></h5>
-        </div>
+      <div class="mobile-menu">
+        <i id="hamburger-menu" class="fas fa-bars"></i>
+      </div>
+      <div class="mobile-menu-links">
+        <h5 id="home1"><a href="#home">Home</a></h5>
+        <h5 id="about1"><a href="#about">About me</a></h5>
+        <h5 id="project1"><a href="#project">Project</a></h5>
+        <h5 id="tools1"><a href="#tools">Tools</a></h5>
+        <h5 id="contact1"><a href="#contact">Contact me</a></h5>
+      </div>
     </header>
 
     <!----- SECTION "HOME" ----->
-
-    <section id="home">
-        <div>
-            <h1 id="h1">Hello world.</h1>
-        </div>
-    </section>
-
-    <!----- SECTION "ABOUT" ----->
-
-    <section id="about">
-        <div id="div-about"> 
-            <h2>About me.</h2> 
-            <p>Gothenburg based digital designer and prospective Front End Developer from Stockholm. Study to become a developer in Javascript, HTML and CSS.</p>
     
-    <!----- THIS TEXT IS HIDDEN ON MOBILE -----> 
-            <p class="about-text2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla possimus voluptatem dolorum minima quos tempora obcaecati dolorem, repellendus incidunt deleniti.</p>
-        </div>
-    </section>
-
-    <!----- SECTION "SKILLS" -----> 
-
-    <section id="skills">
-
-    <!----- THIS CONTAINER IS HIDDEN ON MOBILE ----->     
-        <div>
-            <h3>Skills.</h3>  
-        </div>
+    <div class="scroll-container">
+      
+      <section id="home">
+        <div class="div-container-home">
         
-        <div class="div-round-all">
-           <div class="div-round">
-                <img class="round" src="./images/layout.svg" alt="" srcset="">
-           </div>    
-           <div class="div-round">
-                <img class="round" src="./images/ps.svg" alt="" srcset="">
-           </div>
-           <div class="div-round">
-                <img class="round" src="./images/webb.svg" alt="" srcset="">
-                
-            </div>  
-            <div class="div-round">
-                <img class="round" src="./images/js.svg" alt="" srcset="">
-                
-            </div> 
+          <h1 id="h1">Hello world.</h1>
         </div>
-
-    <!----- THIS IS SHOWN ONLY ON MOBILE ----->
-         <div class="skills-text-mobile">
-            <h4>Skills. // Photoshop, Illustrator, InDesign, Print // CSS/HTML, Js, Figma, Sketch</h4>
-         </div>
-    </section>
+      </section>
     
-    <!----- SECTION "CONTACT" -----> 
 
-    <section id="contact">   
-        <div>
+      <!----- SECTION "ABOUT" ----->
+
+      <section id="about">
+        <div class="div-container-about">
+        <div id="div-about">
+          <h2>About me.</h2>
+          <p>
+            Gothenburg based digital designer and future Front End Developer
+            originally from Stockholm. Studying Javascript, React, Agile
+            methods, UX design and HTML and CSS at Medieinstitutet.
+          </p>
+
+          <!----- THIS TEXT IS HIDDEN ON MOBILE ----->
+          
+        </div></div>
+      </section>
+
+          <!----- SECTION "PROJECT" ----->
+
+          <section id="project">
+            <div class="div-container-project">
+            <div id="div-project">
+              <h2>Project.</h2>
+              
+                <!--<img class="img-project" src="./images/jml.png" alt="" srcset="">-->
+              <h6>Group assignments in Javascript course at Medieinstitutet.</h6>
+              <div class="links-project">
+              <p><a class="a-project" href="http://jmlweather.netlify.app" target="_blank">jmlweather</a> | <a class="a-project" href="https://github.com/lsoder/miniprojekt-react-1" target="_blank">GitHub</a></p>
+              <p><a class="a-project" href="http://quizaa.netlify.app" target="_blank">quizaa</a> | <a class="a-project" href="https://github.com/lsoder/Quizaa" target="_blank">GitHub</a></p>
+              <p><a class="a-project" href="https://johnrybo.github.io/Kalender" target="_blank">calendar</a> | <a class="a-project" href="" target="_blank">GitHub</a></p>
+              <p><a class="a-project" href="http://p5-space-explorer.netlify.app" target="_blank">space-explorer</a> | <a class="a-project" href="">GitHub</a></p>
+            </div>
+          </section>
+
+      <!----- SECTION "SKILLS" ----->
+
+      <section id="tools">
+        <!----- THIS CONTAINER IS HIDDEN ON MOBILE ----->
+        <div class="div-container-tools">
+          <div>
+            <h3>Tools.</h3>
+            <p class="tools-desktop">CSS/HTML, Javascript, React, Typescript, Figma, Sketch, Photoshop,
+              Illustrator, InDesign</p>
+          </div>
+
+          <div class="div-round-all">
+            <div class="div-round">
+              <img class="round" src="./images/webb.svg" alt="" srcset="" />
+            </div>
+            <div class="div-round">
+              <img class="round" src="./images/js.svg" alt="" srcset="" />
+            </div>
+            <div class="div-round">
+              <img class="round" src="./images/ps.svg" alt="" srcset="" />
+            </div>
+            <div class="div-round">
+              <img class="round" src="./images/layout.svg" alt="" srcset="" />
+            </div>
+          </div>
+
+          <!----- THIS IS SHOWN ONLY ON MOBILE ----->
+          <div class="tools-text-mobile">
+            <h4>
+              Tools.<br><br>  CSS/HTML, Javascript, React, Typescript, Figma, Photoshop,
+              Illustrator, InDesign
+            </h4>
+          </div>
+        </div>
+      </section>
+
+      <!----- SECTION "CONTACT" ----->
+
+      <section id="contact">
+        <div class="div-container-contact">
+          
             <h2>Contact me. On mail? LinkedIn? GitHub?</h2>
             <p><a href="mailto:hello@lindasoder.se">hello@lindasoder.se</a></p>
-            <i class="fab fa-linkedin padding-top"></i>&nbsp;&nbsp;<a href="https://github.com/lsoder"><i class="fab fa-github-square padding-top"></i></a>
+            <div>
+            <a href="mailto:hello@lindasoder.se"><i id="i-lg" class="fas fa-envelope-square"></i></a>&nbsp;&nbsp;<i id="i-lg" class="fab fa-linkedin padding-top"></i>&nbsp;&nbsp;
+            <a href="https://github.com/lsoder"><i id="i-lg" class="fab fa-github-square padding-top"></i></a>
+              </div>
         </div>
-    </section>
-</body>
+        </section>
+    </div>
+  </body>
 </html>

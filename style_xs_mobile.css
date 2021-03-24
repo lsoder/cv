@@ -1,0 +1,32 @@
+
+@media (max-width: 320px) {
+    
+    .mobile-menu-links {
+        font-size: .5rem;
+    }
+
+    #hamburger-menu {
+        padding-top: .5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    h6 {
+        font-size: 1.2rem;
+    }
+
+    .a-project {
+        font-size: 2rem;
+    }
+
+    h4 {
+        line-height: 3rem;
+    }
+}

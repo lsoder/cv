@@ -1,0 +1,15 @@
+
+@media (max-width: 687px) {
+
+    h2 {
+        font-size: 4.5rem;
+    }
+
+    #i-lg {
+        font-size: 4.5rem;
+    }
+
+    .about-text2 {
+        display: none;
+    }
+}

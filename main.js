@@ -19,8 +19,6 @@ function h1Change() {
     } else if (h1.innerHTML === "Designers.") {
         h1.innerHTML = "Developers.";
     } else if (h1.innerHTML === "Developers.") {
-        h1.innerHTML = "Gamers.";
-    } else if (h1.innerHTML === "Gamers.") {
         h1.innerHTML = "Hello Everyone!";
     } else if (h1.innerHTML === "Hello Everyone!") {
         h1.innerHTML = "Hello world.";
@@ -58,11 +56,19 @@ about1.onclick = function() {
     header.style.height = null;
 }
 
-let skills1 = document.getElementById('skills1');
+let project1 = document.getElementById('project1');
+ /**
+ * Hides background on hamburger menu when project link is clicked.
+ */   
+project1.onclick = function() {
+    header.style.height = null;
+}
+
+let tools1 = document.getElementById('tools1');
  /**
  * Hides background on hamburger menu when skills link is clicked.
  */   
-skills1.onclick = function() {
+tools1.onclick = function() {
     header.style.height = null;
 }
 let contact1 = document.getElementById('contact1');

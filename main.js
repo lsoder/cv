@@ -1,89 +1,89 @@
-window.addEventListener('load', main);
+window.addEventListener("load", main);
 
 /**
  * Makes H1 clickable.
  */
 function main() {
-    let h1 = document.getElementById('h1');
-    h1.addEventListener('click', h1Change);
+  let h1 = document.getElementById("h1");
+  h1.addEventListener("click", h1Change);
 }
 
 /**
  * Change H1 heading on click to different text messages.
  */
 function h1Change() {
-    let h1 = document.getElementById('h1');
-    
-    if (h1.innerHTML === "Hello world.") {
-        h1.innerHTML = "Designers."; 
-    } else if (h1.innerHTML === "Designers.") {
-        h1.innerHTML = "Developers.";
-    } else if (h1.innerHTML === "Developers.") {
-        h1.innerHTML = "Hello Everyone!";
-    } else if (h1.innerHTML === "Hello Everyone!") {
-        h1.innerHTML = "Hello world.";
-    }
+  let h1 = document.getElementById("h1");
+
+  if (h1.innerHTML === "Hello world.") {
+    h1.innerHTML = "Designers.";
+  } else if (h1.innerHTML === "Designers.") {
+    h1.innerHTML = "Developers.";
+  } else if (h1.innerHTML === "Developers.") {
+    h1.innerHTML = "Hello Everyone!";
+  } else if (h1.innerHTML === "Hello Everyone!") {
+    h1.innerHTML = "Hello world.";
+  }
 }
 
 /* HAMBURGER MENU ICON. */
-const header = document.querySelector('header');
-const menuOut = document.getElementById('hamburger-menu');
+const header = document.querySelector("header");
+const menuOut = document.getElementById("hamburger-menu");
 /**
  * Menu drops down when hamburger icon is clicked and hidden when clicked again.
  */
-menuOut.onclick = function() {
-    if (header.style.height == '100%') {
-        header.style.height = null;
-    } else {
-        header.style.height = '100%';
-    }
-}
+menuOut.onclick = function () {
+  if (header.style.height == "100%") {
+    header.style.height = null;
+  } else {
+    header.style.height = "100%";
+  }
+};
 
 /** HAMBURGER MENU BACKGROUND SHOW/HIDE. */
-let home1 = document.getElementById('home1');
- /**
+let home1 = document.getElementById("home1");
+/**
  * Hides background on hamburger menu when home link is clicked.
- */   
-home1.onclick = function() {
-    header.style.height = null;
-}
+ */
+home1.onclick = function () {
+  header.style.height = null;
+};
 
-let about1 = document.getElementById('about1');
- /**
+let about1 = document.getElementById("about1");
+/**
  * Hides background on hamburger menu when about link is clicked.
- */   
-about1.onclick = function() {
-    header.style.height = null;
-}
+ */
+about1.onclick = function () {
+  header.style.height = null;
+};
 
-let project1 = document.getElementById('project1');
- /**
+let project1 = document.getElementById("project1");
+/**
  * Hides background on hamburger menu when project link is clicked.
- */   
-project1.onclick = function() {
-    header.style.height = null;
-}
+ */
+project1.onclick = function () {
+  header.style.height = null;
+};
 
-let tools1 = document.getElementById('tools1');
- /**
+let tools1 = document.getElementById("tools1");
+/**
  * Hides background on hamburger menu when skills link is clicked.
- */   
-tools1.onclick = function() {
-    header.style.height = null;
-}
-let contact1 = document.getElementById('contact1');
+ */
+tools1.onclick = function () {
+  header.style.height = null;
+};
+let contact1 = document.getElementById("contact1");
 /**
  * Hides background on hamburger menu when contact link is clicked.
  */
-    contact1.onclick = function() {
-    header.style.height = null;
-}
+contact1.onclick = function () {
+  header.style.height = null;
+};
 
 /* ABOUT ME CONTAINER BACKGROUND */
-let color1 = document.getElementById('div-about');
+let color1 = document.getElementById("div-about");
 /**
  * Changes background color on "About me" container onclick.
-*/
-color1.onclick = function() {
-    color1.classList.toggle("color-bg");
-}
+ */
+color1.onclick = function () {
+  color1.classList.toggle("color-bg");
+};
